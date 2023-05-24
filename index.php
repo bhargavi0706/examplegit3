@@ -9,6 +9,7 @@
     </head>
     <body>
         <div class="container">
+            <!--login form-->
             <form class="form" id="login">
                 <h1 class="form_title">Login</h1>
                 <div class="form_message form_message-error"></div>
@@ -34,11 +35,16 @@
                     <span>Don't have an account?<a class="form_link" href="./" id="linkCreateAccount">Create account</a></span>
                 </p> 
             </form>
+            <!--sigin form-->
             <form class="form form-hidden" id="createAccount">
                 <h1 class="form_title">Create Account</h1>
                 <div class="form_message form_message-error"></div>
                 <div class="form_input-group">
-                    <input type="text" id="signupUsername" class="form_input" autofocus placeholder="Username">
+                    <input type="text" id="firstname" class="form_input" autofocus placeholder="First Name">
+                    <div class="form_input-error-msg"></div>
+                </div>
+                <div class="form_input-group">
+                    <input type="text" id="lastname" class="form_input" autofocus placeholder="Last Name">
                     <div class="form_input-error-msg"></div>
                 </div>
                 <div class="form_input-group">
@@ -50,7 +56,7 @@
                     <div class="form_input-error-msg" ></div>
                 </div>
                 <div class="form_input-group">
-                    <input type="password" class="form_input-password form_input"  autofocus placeholder="Confirm password">
+                    <input type="password" class="form_input-password form_input"  autofocus placeholder="Confirm Password">
                     <div class="form_input-error-msg"></div>
                 </div>
                 <button class="form_button" type="submit">Continue</button>
