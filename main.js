@@ -1,7 +1,6 @@
 //clicking on login button
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form_message");
-
     messageElement.textContent = message;
     messageElement.classList.remove("form_message-success", "form_message-error");
     messageElement.classList.add(`form_message-${type}`);

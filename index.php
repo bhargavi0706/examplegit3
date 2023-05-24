@@ -22,7 +22,6 @@
                 <i class="bi bi-eye-slash" id="togglePassword" ></i>
                 <div class="form_input-error-msg"></div>
             </div>
-
             <div class="form-group">        
                 <div class="checkbox">
                     <label><input type="checkbox" name="remember"> Remember me</label>
