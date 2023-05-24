@@ -14,7 +14,6 @@ body {
     background:#000066;
     background-size: cover;
 }
-
 .container {
     width: 400px;
     max-width: 400px;
@@ -24,18 +23,15 @@ body {
     border-radius: var(--border-radius);
     background: #ffffff;
 }
-
 /*fonts.google.com -> get your favoriate font style */
 .container,
 .form_input,
 .form_button {
     font: 500 1rem 'Quicksand', sans-serif;
 }
-
 .form-hidden {
     display: none;
 }
-
 /* to remove extrs space to top and bottom*/
 .form > *:first-child {
     margin-top: 0;
@@ -43,13 +39,11 @@ body {
 .form > *:last-child {
     margin-bottom: 0;
 }
-
 /*title adjustment*/
 .form_title {
     margin-bottom: 2rem;
     text-align: center;
 }
-
 /* message color based on data entered*/
 .form_message {
     text-align: center;
@@ -61,9 +55,7 @@ body {
 .form_message-error {
     color: var(--color-error);
 }
-
 /* data entey fields*/
-
 .form_input {
     display: block;
     width: 100%;
@@ -104,7 +96,6 @@ body {
     cursor: pointer;
     padding: 5px;
 }
-
 /*button specifications*/
 .form_button {
     width: 100%;
@@ -125,17 +116,14 @@ body {
 .form_button:active {
     transform: scale(0.98);
 }
-
 .form_text {
     text-align: center;
 }
-
 .form_link {
     color: var(--color-secondary);
     text-decoration: none;
     cursor: pointer;
 }
-
 .form_link:hover {
     text-decoration: underline;
     position: relative;
